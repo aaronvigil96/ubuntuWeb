@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu';
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+header nav {
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem;
+}
+
+header nav div {
+    display: flex;
+}
+
+header nav div a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    padding: 1px 10px;
+}
+
+header nav div:nth-child(3):hover{
+    background-color: rgb(126, 126, 126);
+    border-radius: 30px;
+}
+
+header nav div a:hover {
+    background-color: rgb(126, 126, 126);
+    border-radius: 30px;
+}
+
+main {
+    width: 70px;
+    background-color: rgba(0,0,0,.5);
+    height: calc(100vh - 24px);
+    padding: 8px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main section div {
+    padding: 6px 10px;
+}
+
+main section div:hover {
+    border-radius: 10px;
+    background-color: rgba(77, 77, 77, 0.5);
+}
+
+main section div img {
+    width: 100%;
+}
+
+main div {
+    padding: 6px 10px;
+}
+main div:hover {
+    border-radius: 10px;
+    background-color: rgba(77, 77, 77, 0.5);
+}
+.menu_icon {
+    width: 100%;
+    filter: invert(1);
+}
